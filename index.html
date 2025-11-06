@@ -63,6 +63,29 @@ body {
   color: var(--text-white);
   line-height: 1.6;
   overflow-x: hidden;
+  /* Metin seçimi engelle */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Butonlar, linkler ve input alanlarında seçime izin ver */
+button, a, input, textarea {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+/* Görselleri sürüklenemeyen yap */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
 }
 
 .grain-overlay {
@@ -738,7 +761,7 @@ footer {
         NYCBAHIS<br>
         <span>Kazanmanın Yeni Platformu</span>
       </h1>
-      <p><strong>Nycbahis</strong>; bahis, canlı casino ve slot deneyimini bir araya getiren üstün bir oyun markasıdır. Yüksek oranlar, anlık ödemeler ve zengin içerik sayesinde <strong>Nycbahis</strong>, kazanç odaklı oyuncular için maksimum güvenilir bir tercih haline gelir. 2025 güncel <strong>Nycbahis</strong> bağlantısıyla siteye hızla erişebilir; bonuslar, turnuvalar ve kullanıcı dostu arayüzle kesintisiz eğlenceyi yakalayabilirsiniz. <strong>Nycbahis</strong>'te her oturum, daha iyi oran ve daha fazla şans demektir.</p>
+      <p><strong>Nycbahis</strong>; bahis, canlı casino ve slot deneyimini bir araya getiren modern bir oyun markasıdır. Yüksek oranlar, anlık ödemeler ve zengin içerik sayesinde <strong>Nycbahis</strong>, kazanç odaklı oyuncular için güvenilir bir tercih haline gelir. 2025 güncel <strong>Nycbahis</strong> bağlantısıyla siteye hızla erişebilir; bonuslar, turnuvalar ve kullanıcı dostu arayüzle kesintisiz eğlenceyi yakalayabilirsiniz. <strong>Nycbahis</strong>'te her oturum, daha iyi oran ve daha fazla şans demektir.</p>
       
       <div class="cta-buttons">
         <a href="https://t2m.io/nycresmi" class="btn-hero-primary" rel="nofollow" target="_blank">🎯 Nycbahis'e Gir</a>
@@ -751,15 +774,15 @@ footer {
         <ul>
           <li>
             <span class="bullet">✅</span>
-            <span><strong>Sahte sitelerde kayıt olmadan rastgele bilgiler ile direkt giriş yapabilirsin.</strong> Gerçek Nycbahis sitesinde hesap oluşturmanız gerekmektedir.</span>
+            <span><strong>Sahte sitelerde kayıt olmadan rastgele bilgiler ile direkt giriş yapabilirsiniz.</strong> Gerçek Nycbahis sitesinde hesap oluşturmanız gerekir.</span>
           </li>
           <li>
             <span class="bullet">🔍</span>
-            <span><strong>Sahte Nycbahis sitelerinde hiçbir oyunun demosu çalışmaz.</strong> Gerçek Nycbahis'te demo oyunlar sorunsuz çalışmaktadır.</span>
+            <span><strong>Sahte Nycbahis sitelerinde hiçbir oyunun demosu çalışmaz.</strong> Gerçek Nycbahis'te demo oyunlar sorunsuz çalışır.</span>
           </li>
           <li>
             <span class="bullet">🔒</span>
-            <span><strong>Şifre veya OTP istemez.</strong> Ödeme seçeneklerinin hiçbiri çalışmaz. Sadece <strong>t2m.io/nycresmi</strong> adresini kullanın!</span>
+            <span><strong>Şifre veya OTP istenmez.</strong> Ödeme seçeneklerinin çoğu çalışmaz. Sadece <strong>t2m.io/nycresmi</strong> adresini kullanın!</span>
           </li>
         </ul>
       </div>
@@ -770,32 +793,32 @@ footer {
       <div class="features-container">
         <div class="feature-card">
           <span class="feature-emoji">🎰</span>
-          <h3>Nycbahis Çeşitli Oyunlar ve Sağlayıcılar</h3>
-          <p><strong>Nycbahis</strong>, binlerce slot ve masa oyununun yanında canlı casino masalarıyla geniş bir banka sunar. Pragmatic Play, NetEnt ve Evolution gibi önde gelen stüdyoların oyunlarını tek çatı altında bulabilir, yüksek RTP ve özel turnuva formatlarıyla kazanma şansınızı artırabilirsiniz. Mobil uyumlu tasarım sayesinde dilediğiniz yerde <strong>Nycbahis</strong> oyunlarına devam edebilirsiniz.</p>
+          <h3>Nycbahis Çeşitli Oyunlar</h3>
+          <p><strong>Nycbahis</strong>, binlerce slot ve masa oyununun yanında canlı casino masalarıyla geniş bir kütüphane sunar. Pragmatic Play, NetEnt ve Evolution gibi önde gelen stüdyoların oyunlarını tek çatı altında bulabilir, yüksek RTP ve özel turnuva formatlarıyla kazanma şansınızı artırabilirsiniz. Mobil uyumlu tasarım sayesinde dilediğiniz yerde <strong>Nycbahis</strong> oyunlarına devam edebilirsiniz.</p>
         </div>
         <div class="feature-card">
           <span class="feature-emoji">⚡</span>
-          <h3>Nycbahis Fast İşlem</h3>
+          <h3>Nycbahis Hızlı İşlem</h3>
           <p><strong>Nycbahis</strong>'te para yatırma ve çekme işlemleri pratik, şeffaf ve hızlıdır. Banka transferi, Papara, Cepbank ve popüler kripto para seçenekleriyle saniyeler içinde bakiye oluşturabilir; kazançlarınızı gecikmeden hesabınıza alabilirsiniz. Hızlı onay süreçleri, <strong>Nycbahis</strong> kullanıcılarının kesintisiz oyun akışını korumasına yardımcı olur.</p>
         </div>
         <div class="feature-card">
           <span class="feature-emoji">🔒</span>
-          <h3>Nycbahis Tam Güvenlik</h3>
+          <h3>Nycbahis Maksimum Güvenlik</h3>
           <p><strong>Nycbahis</strong>, ileri düzey SSL şifreleme ve iki adımlı doğrulama seçenekleriyle hesap güvenliğini üst seviyede tutar. Bağımsız testlerle denetlenen oyun altyapısı, adil sonuç üretimini garanti eder. Böylece <strong>Nycbahis</strong>'te hem kişisel verileriniz hem de bakiyeniz güvenle korunur.</p>
         </div>
         <div class="feature-card">
           <span class="feature-emoji">💰</span>
-          <h3>Nycbahis Yüksek Oranları</h3>
+          <h3>Nycbahis Yüksek Oranlar</h3>
           <p><strong>Nycbahis</strong> spor bahislerinde sektörün en rekabetçi oranlarını sunar. Futbol, basketbol, tenis ve e-spor dahil 50+ spor dalında canlı bahis imkanı. <strong>Nycbahis</strong> ile her kupon, maksimum kazanç fırsatı demektir.</p>
         </div>
         <div class="feature-card">
           <span class="feature-emoji">🎁</span>
-          <h3>Nycbahis Kampanyalar ve Promosyonlar</h3>
+          <h3>Nycbahis Kampanyalar</h3>
           <p><strong>Nycbahis</strong>'te her gün yeni bonus kampanyaları! Hoş geldin bonusu, yatırım bonusları, cashback ve freespin fırsatlarıyla <strong>Nycbahis</strong> hesabınızı sürekli büyütün. VIP üyeler için özel <strong>Nycbahis</strong> ayrıcalıkları.</p>
         </div>
         <div class="feature-card">
           <span class="feature-emoji">📱</span>
-          <h3>Nycbahis Mobil Uyumluluk</h3>
+          <h3>Nycbahis Mobil Uyum</h3>
           <p><strong>Nycbahis</strong> mobil uyumlu arayüzüyle iOS ve Android cihazlarda sorunsuz çalışır. <strong>Nycbahis</strong> mobil ile her yerden bahis yapın, canlı maçları takip edin, casino oyunlarını oynayın. <strong>Nycbahis</strong> cebinizde!</p>
         </div>
       </div>
@@ -964,6 +987,222 @@ footer {
 
   <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
+  <!-- KORUMA SİSTEMİ - SAĞ TIK, F12, KAYNAK GÖRÜNTÜLEME ENGELLENDİ! 🔒 -->
+  <script>
+  (function() {
+    'use strict';
+    
+    const WARNING_URL = 'https://baybay.com.tr';
+    
+    // 1. SAĞ TIK KORUMASI
+    document.addEventListener('contextmenu', function(e) {
+      // Sadece butonlar ve linkler hariç
+      if (!e.target.closest('a') && !e.target.closest('button')) {
+        e.preventDefault();
+        showWarningAndRedirect('Sağ tık yapma işlemi engellendi!');
+        return false;
+      }
+    }, false);
+
+    // 2. KLAVYE KISAYOL KORUMALARI
+    document.addEventListener('keydown', function(e) {
+      // F12 (DevTools)
+      if (e.key === 'F12') {
+        e.preventDefault();
+        showWarningAndRedirect('Developer Tools açma işlemi engellendi!');
+        return false;
+      }
+      
+      // Ctrl+Shift+I (DevTools)
+      if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) {
+        e.preventDefault();
+        showWarningAndRedirect('Developer Tools açma işlemi engellendi!');
+        return false;
+      }
+      
+      // Ctrl+Shift+J (Console)
+      if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) {
+        e.preventDefault();
+        showWarningAndRedirect('Console açma işlemi engellendi!');
+        return false;
+      }
+      
+      // Ctrl+U (View Source)
+      if (e.ctrlKey && (e.key === 'u' || e.key === 'U')) {
+        e.preventDefault();
+        showWarningAndRedirect('Sayfa kaynağı görüntüleme engellendi!');
+        return false;
+      }
+      
+      // Ctrl+Shift+C (Inspect)
+      if (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c')) {
+        e.preventDefault();
+        showWarningAndRedirect('Element inceleme engellendi!');
+        return false;
+      }
+      
+      // Ctrl+S (Save)
+      if (e.ctrlKey && (e.key === 's' || e.key === 'S')) {
+        e.preventDefault();
+        showWarningAndRedirect('Sayfa kaydetme engellendi!');
+        return false;
+      }
+    });
+
+    // 3. SEÇİM KORUMASI (Butonlar ve inputlar hariç)
+    document.addEventListener('selectstart', function(e) {
+      if (!e.target.closest('input') && !e.target.closest('textarea')) {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // 4. KOPYALA KORUMASI
+    document.addEventListener('copy', function(e) {
+      if (!e.target.closest('input') && !e.target.closest('textarea')) {
+        e.preventDefault();
+        showWarningAndRedirect('İçerik kopyalama engellendi!');
+        return false;
+      }
+    });
+
+    // 5. SÜRÜKLE-BIRAK KORUMASI
+    document.addEventListener('dragstart', function(e) {
+      if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // 6. DEVTOOLS AÇILMA ALGILAMA
+    let devtoolsOpen = false;
+    const devtoolsElement = new Image();
+    
+    Object.defineProperty(devtoolsElement, 'id', {
+      get: function() {
+        devtoolsOpen = true;
+        showWarningAndRedirect('Developer Tools algılandı!');
+        return '';
+      }
+    });
+    
+    setInterval(function() {
+      devtoolsOpen = false;
+      console.log(devtoolsElement);
+      console.clear();
+    }, 1000);
+
+    // 7. VIEWPORT BOYUT KONTROLÜ (DevTools yan panel)
+    let lastWidth = window.innerWidth;
+    let lastHeight = window.innerHeight;
+    
+    setInterval(function() {
+      const widthDiff = Math.abs(window.innerWidth - lastWidth);
+      const heightDiff = Math.abs(window.innerHeight - lastHeight);
+      
+      if (widthDiff > 200 || heightDiff > 200) {
+        showWarningAndRedirect('Developer Tools algılandı!');
+      }
+      
+      lastWidth = window.innerWidth;
+      lastHeight = window.innerHeight;
+    }, 1000);
+
+    // UYARI GÖSTER VE YÖNLENDİR
+    function showWarningAndRedirect(message) {
+      // Uyarı modalı oluştur
+      const warningDiv = document.createElement('div');
+      warningDiv.innerHTML = `
+        <div style="
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.95);
+          z-index: 999999;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          animation: fadeIn 0.3s;
+        ">
+          <div style="
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            color: white;
+            padding: 40px 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            border: 3px solid #ef4444;
+            max-width: 500px;
+            animation: slideDown 0.5s;
+          ">
+            <div style="font-size: 4em; margin-bottom: 20px; animation: pulse 1s infinite;">⚠️</div>
+            <h2 style="font-size: 2em; margin-bottom: 20px; font-weight: 700; text-transform: uppercase;">
+              İÇERİK KORUNMAKTADIR!
+            </h2>
+            <p style="font-size: 1.2em; margin-bottom: 15px; line-height: 1.6;">
+              ${message}
+            </p>
+            <div style="
+              background: rgba(0, 0, 0, 0.3);
+              padding: 20px;
+              border-radius: 12px;
+              margin-top: 25px;
+              border: 2px solid rgba(255, 255, 255, 0.2);
+            ">
+              <p style="font-size: 1.1em; margin-bottom: 10px;">
+                Bu sayfa içeriği telif haklarıyla korunmaktadır.
+              </p>
+              <p style="font-size: 1.3em; font-weight: 700; color: #fde68a;">
+                Yönlendiriliyorsunuz...
+              </p>
+              <p style="font-size: 1.5em; font-weight: 800; margin-top: 10px; color: #fcd34d;">
+                baybay.com.tr
+              </p>
+            </div>
+          </div>
+        </div>
+        <style>
+          @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+          }
+          @keyframes slideDown {
+            from { transform: translateY(-100px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+          }
+          @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+          }
+        </style>
+      `;
+      
+      document.body.appendChild(warningDiv);
+      
+      // 2 saniye sonra yönlendir
+      setTimeout(function() {
+        window.location.href = WARNING_URL;
+      }, 2000);
+    }
+
+    // 8. CONSOLE UYARI MESAJLARI
+    const consoleStyles = {
+      stop: 'color: #dc2626; font-size: 60px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);',
+      warning: 'color: #fbbf24; font-size: 24px; font-weight: bold;',
+      message: 'color: white; font-size: 18px; line-height: 1.8;'
+    };
+    
+    console.log('%c⚠️ DURDUR!', consoleStyles.stop);
+    console.log('%c🛡️ Bu bir güvenlik özelliğidir!', consoleStyles.warning);
+    console.log('%c\nBu konsolu kullanarak kod çalıştırırsanız:\n• Hesabınız engellenebilir\n• IP adresiniz kaydedilir\n• Yasal işlem başlatılabilır\n\nBu sayfayı hemen kapatın!', consoleStyles.message);
+    console.log('%c\n⚖️ Telif hakları © 2025 Nycbahis', consoleStyles.warning);
+
+  })();
+  </script>
+
   <!-- Schema Markup - Organization (C75796.COM - DR 36 REFERANS!) -->
   <script type="application/ld+json">
   {
@@ -1008,4 +1247,3 @@ footer {
 
 </body>
 </html>
-
